@@ -61,7 +61,7 @@ img {
     border: none;
 }
 
-ul {
+article ul {
   /* user-agent styles */
   display: block;
   list-style-type: disc;
@@ -173,6 +173,10 @@ footer hr {
 /* Class Selectors */
 .title {
     text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title a {
     color: #FFFFFF;
 }
 
