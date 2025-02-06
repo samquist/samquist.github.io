@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'Commissioner', sans-serif;
     line-height: 72px;
@@ -78,22 +78,22 @@ li {
 article {
     display: flex;
     background-color: #FFFFFF;
-    padding: 33px 21px 18px 21px;
-    margin-bottom: 29px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 20px;
     border-radius: 25px;
     gap: 30px;
 }
 
 footer {
     background-color: #3b85ad;
-    padding: 28px 0px 28px 0px;
+    padding: 25px 0px 25px 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border-radius: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 /* Descendant Selectors */
@@ -119,6 +119,7 @@ header nav a {
 h1 a {
     font-family: 'Commissioner', sans-serif;
     color: #FFFFFF;
+    font-size: 42px;
     text-decoration: none;
 }
 
@@ -193,7 +194,7 @@ footer hr {
 
 .blogs {
     background-color: #EAEEF0;
-    padding: 14px 26px 26px 26px;
+    padding: 15px 20px 15px 20px;
     margin-bottom: 19px;
     border-radius: 25px;
 }
