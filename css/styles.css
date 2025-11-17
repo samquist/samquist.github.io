@@ -1,327 +1,69 @@
-/* Defaults */
 body {
     font-size: 100%;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    background-color: #242424;
+    font-family: "Commissioner", sans-serif;
+    background-color: #f4f4f4;
 }
 
 .container {
-    width: 1280px;
+    width: 960px;
     margin: 0 auto;
 }
 
-/* Element Selectors */
-header {
-    background-color: #3b85ad;
-    padding: 21px 38px 25px 38px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-main {
-    margin-bottom: 40px;
+h1 {
+    font-size: 35px;
+    padding: 60px 10px 10px 10px;
+    text-align: center;
 }
 
 h2 {
-    font-size: 60px;
-    font-weight: 700;
-    font-family: 'Commissioner', sans-serif;
-    line-height: 90px;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    font-size: 25px;
 }
 
 h3 {
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Commissioner', sans-serif;
-    line-height: 72px;
-    color: #3b85ad;
-    text-transform: uppercase;
-    margin-bottom: 6px;
+    font-size: 16px;
+    font-style: italic;
+    color: DodgerBlue;
+    padding-bottom: 6px;
+    text-align: center;
 }
 
-h4 {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: 'Commissioner', sans-serif;
-    line-height: 33px;
-    color: #3b85ad;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+hr {
+    color: black;
+    background-color: black;
+    height: 3px;
 }
 
-img {
-    display: inline-block;
-    border: none;
-}
-
-article ul {
-  /* user-agent styles */
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  padding-inline-start: 30px;
-}
-
-li {
-  display: list-item;
-  text-align: match-parent;
-}
-
-article {
-    display: flex;
-    background-color: #FFFFFF;
-    padding: 15px 20px 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
-    gap: 30px;
+a {
+    text-decoration: none;
+    color: DodgerBlue;
 }
 
 footer {
-    background-color: #3b85ad;
-    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
+
+/* Element Selectors */
+section {
+    border: 2px solid #555555;
+    border-radius: 3px;
+    padding: 10px;
+    width: 282px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.flex {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 25px;
-    margin-bottom: 50px;
+    flex-flow: row wrap;
+    gap: 20px;
+    border: 2px;
 }
 
 /* Descendant Selectors */
-header p {
-    font-weight: 700;
+section.col-1 {
+    width: 936px;
 }
 
-header nav ul {
-    display: flex;
-    column-gap: 34px;
-    padding-right: 15px;
-    padding-top: 20px;
-}
-
-header nav a {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-h1 a {
-    font-family: 'Commissioner', sans-serif;
-    color: #FFFFFF;
-    font-size: 42px;
-    text-decoration: none;
-}
-
-h4 a {
-    text-decoration: none;
-}
-
-article p {
-    font-size: 18px;
-}
-
-footer p {
-    color: white;
-    font-size: 18px;
-}
-
-footer a {
-    color: white;
-}
-
-footer h2 {
-    font-size: 36px;
-    line-height: 54px;
-    margin-bottom: 18px;
-}
-
-footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 10px;
-    gap: 52px;
-}
-
-footer ul a {
-    color: white;
-    font-family: 'Commissioner', sans-serif;
-    text-decoration: none;
-    line-height: 24px;
-    font-size: 18px;
-}
-
-footer hr {
-    text-align: center;
-    border: 3px solid #FFFFFF;
-    width: 416px;
-    margin-top: 20px;
-    margin-bottom: 24px;
-}
-
-/* Class Selectors */
-.title {
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.title a {
-    color: #FFFFFF;
-}
-
-.banner {
-    background-color: darkslateblue;
-    background-image: url(../img/banner-index.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: cover;
-    padding: 54px 90px 33px 10px;
-    margin-bottom: 30px;
-}
-
-.veil {
-    background-color: rgba(37, 76, 101, .6);
-    padding: 18px 16px 46px 28px;
-    border-radius: 25px;
-}
-
-.blogs {
-    background-color: #EAEEF0;
-    padding: 15px 20px 15px 20px;
-    margin-bottom: 19px;
-    border-radius: 25px;
-}
-
-.gardens {
-    display: flex;
-    padding: 11px 21px 0px 21px;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.more {
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.footer-nav ul {
-    gap: 100px;
-    margin-bottom: 12px;
-}
-
-.copyright {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.offers {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 30px;
-}
-
-.offers section {
-    text-align: center;
-    background-color: #EAEEF0;
-    border-radius: 25px;
-    width: 300px;
-    padding: 20px 17px 20px 17px;
-}
-
-.events {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.events section {
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    width: 400px;
-    padding: 20px 20px 20px 20px;
-}
-
-.event-box {
-    background-color: #EAEEF0;
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 19px;
-    border-radius: 25px;
-    gap: 20px;
-}
-
-.italics {
-    font-style: italic;
-}
-
-.signup {
-    background-color: #EAEEF0;
-    padding: 16px 21px 53px 21px;
-    border-radius: 25px;
-}
-
-.smallbox input {
-    width: 296px;
-}
-
-/* Pseudo-Class Selectors */
-header nav a:hover {
-    text-decoration: underline;
-}
-
-button:hover {
-    background-color: #FFFFFF;
-    border: 2px solid #254C65;
-    border-radius: 25px;
-    color: #254C65;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 42px;
-    padding: 0px 25px 0px 25px;
-}
-
-.more p:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
-footer ul a:hover {
-    color: #78DCFF;
-}
-
-input[type=submit]:hover {
-    background-color: #FFFFFF;
-    border: 2px solid #254C65;
-    border-radius: 25px;
-    color: #254C65;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 42px;
-    padding: 0px 25px 0px 25px;
-}
-
-/* Element Class Selectors */
-.veil p {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #FFFFFF;
-}
-
-/* Descendant Combinators */
-section.gardens p {
-    font-size: 18px;
-    margin-bottom: 14px;
+a:hover {
+    color: blue;
 }
