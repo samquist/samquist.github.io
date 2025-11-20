@@ -1,17 +1,23 @@
 body {
     font-size: 100%;
     font-family: "Commissioner", sans-serif;
-    background-color: #f4f4f4;
+    background-color: darkslategrey;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+p {
+    font-size: 14px;
 }
 
 h1 {
-    font-size: 35px;
-    padding: 60px 10px 10px 10px;
+    font-size: 34px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
 }
 
@@ -25,6 +31,11 @@ h3 {
     color: DodgerBlue;
     padding-bottom: 6px;
     text-align: center;
+}
+
+h4 {
+    font-size: 14px;
+    color: DodgerBlue;
 }
 
 hr {
@@ -49,19 +60,20 @@ section {
     padding: 10px;
     width: 282px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .flex {
     display: flex;
     flex-flow: row wrap;
-    gap: 20px;
+    gap: 22px;
     border: 2px;
 }
 
 /* Descendant Selectors */
 section.col-1 {
     width: 936px;
+    margin-top: 20px;
 }
 
 a:hover {
