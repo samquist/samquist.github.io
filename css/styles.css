@@ -80,6 +80,11 @@ section.col-1 {
     margin-top: 20px;
 }
 
+div.about {
+    display: flex;
+    flex-direction: column;
+}
+
 a:hover {
     color: blue;
 }
