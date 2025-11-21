@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 360.73">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 360.73">
   <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
   <defs>
     <style>
       .st0 {
+        fill: #1e90ff;
         fill-rule: evenodd;
       }
     </style>
   </defs>
-  <g id="Layer_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-    <path class="st0" d="M456.04,10.77c22.03,5.93,39.38,23.39,45.26,45.56,10.7,40.19,10.7,124.03,10.7,124.03,0,0,0,83.85-10.7,124.04-5.89,22.17-23.23,39.63-45.27,45.56-39.93,10.77-200.03,10.77-200.03,10.77,0,0-160.11,0-200.04-10.77-22.03-5.93-39.38-23.39-45.27-45.56C0,264.21,0,180.36,0,180.36c0,0,0-83.85,10.7-124.03,5.89-22.17,23.24-39.63,45.27-45.56C95.89,0,256,0,256,0c0,0,160.11,0,200.03,10.77ZM203.64,256.49l133.82-76.12-133.82-76.13v152.25h0Z"/>
+  <g id="Layer_11" data-name="Layer_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <path class="st0" d="M456.04,10.77c22.03,5.93,39.38,23.39,45.26,45.56,10.7,40.19,10.7,124.03,10.7,124.03,0,0,0,83.85-10.7,124.04-5.89,22.17-23.23,39.63-45.27,45.56-39.93,10.77-200.03,10.77-200.03,10.77,0,0-160.11,0-200.04-10.77-22.03-5.93-39.38-23.39-45.27-45.56C0,264.21,0,180.36,0,180.36c0,0,0-83.85,10.7-124.03,5.89-22.17,23.24-39.63,45.27-45.56C95.89,0,256,0,256,0c0,0,160.11,0,200.03,10.77h.01ZM203.64,256.49l133.82-76.12-133.82-76.13v152.25h0Z"/>
   </g>
 </svg>
