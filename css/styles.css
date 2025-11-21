@@ -109,3 +109,14 @@ footer ul {
     align-items: center;
     justify-content: center;
 }
+
+figure {
+    float: right;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
