@@ -97,7 +97,7 @@ header {
 
 ul {
     display: flex;
-    column-gap: 20px;
+    column-gap: 24px;
     font-weight: bold;
     align-items: center;
 }
