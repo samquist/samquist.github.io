@@ -73,6 +73,13 @@ section {
     padding: 10px;
     margin-top: 8px;
     width: 406px;
+    box-shadow: 8px 8px 0px #CCCCCC;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.col-3 section:hover {
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 0px #CCCCCC;
 }
 
 /* Element Selectors */
